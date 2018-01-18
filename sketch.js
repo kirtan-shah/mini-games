@@ -1,10 +1,10 @@
 
-
-void setup() {
-  createCanvas(300, 300);
+function setup() {
+  //createCanvas(300, 300);
 
 }
 
-void draw() {
-
+function draw() {
+  ellipseMode(CENTER);
+  ellipse(mouseX, mouseY, 50, 50);
 }
